@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Aquela Calculadora</title>
+</head>
+<body>
+    <form class="calculadora" name="calc">
+        <section id="resultado">
+            <input id="historico" class="valor historico" type="text" name="history" readonly>
+            <input id="valor" class="valor" type="text" name="value"  readonly>
+        </section>
+
+        <section id="teclado">
+            <div class="linha">
+                <button id="limpar" class="operador" type="button">C</button>
+                <button id="voltar" class="operador" type="button">CE</button>
+                <button id="porcentagem" class="operador" type="button">%</button>
+                <button id="/" class="operador" type="button">/</button>
+            </div>
+            <div class="linha">
+                <button id="7" class="numero" type="button">7</button>
+                <button id="8" class="numero" type="button">8</button>
+                <button id="9" class="numero" type="button">9</button>
+                <button id="*" class="operador" type="button">*</button>
+            </div>
+            <div class="linha">
+                <button id="4" class="numero" type="button">4</button>
+                <button id="5" class="numero" type="button">5</button>
+                <button id="6" class="numero" type="button">6</button>
+                <button id="-" class="operador"type="button">-</button>
+            </div>
+            <div class="linha">
+                <button id="1" class="numero" type="button">1</button>
+                <button id="2" class="numero" type="button">2</button>
+                <button id="3" class="numero" type="button">3</button>
+                <button id="+" class="operador" type="button">+</button>
+            </div>
+            <div class="linha">
+                <button id="0" class="numero" type="button">0</button>
+                <button id="=" class="operador" type="button">=</button>
+            </div>
+        </section>
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
